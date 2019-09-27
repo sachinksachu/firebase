@@ -1,0 +1,4 @@
+#Fri Sep 27 14:18:23 IST 2019
+base.0=/home/gopi/AndroidStudioProjects/firebase/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex
