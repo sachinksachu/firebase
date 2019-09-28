@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 mbr.setLocation(txt2.getText().toString().trim());
                 mbr.setDate_time(txt3.getText().toString().trim());
 
-                new GetUrlContentTask(getApplicationContext()).execute("http://192.168.43.175/add_event.php?name="+txt1.getText().toString()+"&location="+txt2.getText().toString());
+                new GetUrlContentTask(getApplicationContext()).execute("http://192.168.7.122/add_event.php?name="+txt1.getText().toString()+"&location="+txt2.getText().toString());
 
                 //dref.push().setValue(mbr);
                 dref.child("member"+i).setValue(mbr);

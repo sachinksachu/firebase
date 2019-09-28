@@ -40,7 +40,7 @@ public class View_Events extends AppCompatActivity {
         setContentView(R.layout.activity_view__events);
 
         //txt=findViewById(R.id.txt1);
-        new GetUrlContentTask(getApplicationContext()).execute("http://192.168.43.175/list_event.php");
+        new GetUrlContentTask(getApplicationContext()).execute("http://192.168.7.122/list_event.php");
     }
 
     private class GetUrlContentTask extends AsyncTask<String, Integer, String> {
@@ -94,7 +94,7 @@ public class View_Events extends AppCompatActivity {
 
             JSONObject jso = null;
             try {
-                ListView listView = (ListView) findViewById(R.id.list_view);
+                ListView listView = findViewById(R.id.list_view);
 
                 List<String> items = new ArrayList<>();
 
