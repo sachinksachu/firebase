@@ -11,25 +11,20 @@
         android:id="@+id/t1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint=" Event name" />
+        android:hint=" Mobile" />
 
     <EditText
         android:id="@+id/t2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Location" />
+        android:hint="Password" />
 
-    <EditText
-        android:id="@+id/t3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Date" />
 
     <Button
         android:id="@+id/b1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="button" />
+        android:hint="Login" />
     <Button
         android:id="@+id/b2"
         android:layout_width="match_parent"

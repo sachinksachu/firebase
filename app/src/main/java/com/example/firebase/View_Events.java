@@ -92,6 +92,10 @@ public class View_Events extends AppCompatActivity {
             // update your UI here
             //displayMessage(result);
 
+
+            Toast.makeText(getApplicationContext(),result,Toast.LENGTH_LONG).show();
+
+
             JSONObject jso = null;
             try {
                 ListView listView = findViewById(R.id.list_view);

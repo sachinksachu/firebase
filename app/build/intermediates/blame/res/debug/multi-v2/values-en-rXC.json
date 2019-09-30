@@ -4,7 +4,7 @@
             "outputFile": "/home/sachin/StudioProjects/firebase/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/home/sachin/.gradle/caches/transforms-2/files-2.1/91fc2436a053901df875f7ae2472af6e/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/home/sachin/.gradle/caches/transforms-2/files-2.1/383837a1f189d10df3511e6927171459/appcompat-1.1.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/sachin/.gradle/caches/transforms-2/files-2.1/12c377f95dec720b00ed16de9d59ccf3/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "/home/sachin/.gradle/caches/transforms-2/files-2.1/0136ca65841c199e13145e51c5d77d51/core-1.1.0/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

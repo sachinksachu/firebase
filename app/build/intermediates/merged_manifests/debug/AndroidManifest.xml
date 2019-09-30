@@ -27,6 +27,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.firebase.add_event" />
         <activity android:name="com.example.firebase.Coord" />
         <activity android:name="com.example.firebase.View_Events" />
         <activity android:name="com.example.firebase.MainActivity" >

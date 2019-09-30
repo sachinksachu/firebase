@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         txt1= (EditText)findViewById(R.id.t1);
         txt2= (EditText)findViewById(R.id.t2);
-        txt3= (EditText)findViewById(R.id.t3);
+
         b1 = (Button)findViewById(R.id.b1);
         mbr = new Members();
 
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),View_Events.class);
+                Intent i = new Intent(getApplicationContext(),Coord.class);
                 startActivity(i);
             }
         });
@@ -67,13 +67,13 @@ public class MainActivity extends AppCompatActivity {
                 //mbr.setAge(age);
                 mbr.setName(txt1.getText().toString().trim());
                 mbr.setLocation(txt2.getText().toString().trim());
-                mbr.setDate_time(txt3.getText().toString().trim());
+                //mbr.setDate_time(txt3.getText().toString().trim());
 
-                new GetUrlContentTask(getApplicationContext()).execute("http://192.168.7.122/add_event.php?name="+txt1.getText().toString()+"&location="+txt2.getText().toString());
+                new GetUrlContentTask(getApplicationContext()).execute("http://192.168.7.122/login.php?mobile="+txt1.getText().toString()+"&password="+txt2.getText().toString());
 
                 //dref.push().setValue(mbr);
                 dref.child("member"+i).setValue(mbr);
-                Toast.makeText(MainActivity.this,"data inserted",Toast.LENGTH_LONG).show();
+               // Toast.makeText(MainActivity.this,"data inserted",Toast.LENGTH_LONG).show();
                 i=i+1;
             }
         });
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-   private class GetUrlContentTask extends AsyncTask<String, Integer, String> {
+   class GetUrlContentTask extends AsyncTask<String, Integer, String> {
         private Context context;
 
         public GetUrlContentTask(Context context)
@@ -131,16 +131,27 @@ public class MainActivity extends AppCompatActivity {
             //displayMessage(result);
 
 
-            JSONObject jso = null;
+            if(result.equals("LoginSuccess"))
+            {
+                //sharedpref
+                startActivity(new Intent(getApplicationContext(),View_Events.class));
+            }
+
+            Toast.makeText(getApplicationContext(),result,Toast.LENGTH_LONG).show();
+
+
+
+/*            JSONObject jso = null;
             try {
                 jso = new JSONObject(result);
-                String status = jso.getString("status");
+                String status = jso.toString();
                 Toast.makeText(this.context,"Status: "+status,Toast.LENGTH_LONG).show();
 
             } catch (JSONException e) {
                 e.printStackTrace();
             }
 
+*/
 
 
         }

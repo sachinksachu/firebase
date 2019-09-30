@@ -1082,6 +1082,7 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable iconsandroid
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1160,6 +1161,7 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
+id age
 id alertTitle
 id all
 id always
@@ -1244,6 +1246,8 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id my_recycler_view
+id name
 id navigation_header_container
 id never
 id none
@@ -1408,6 +1412,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_event
+layout activity_coord
 layout activity_main
 layout activity_view__events
 layout custom_dialog
@@ -1436,6 +1442,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout student_list_row
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
