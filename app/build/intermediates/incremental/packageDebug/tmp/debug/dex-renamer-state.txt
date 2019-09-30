@@ -1,7 +1,7 @@
-#Sat Sep 28 13:45:37 IST 2019
-base.0=/home/sachin/StudioProjects/firebase/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+#Mon Sep 30 17:43:08 IST 2019
+base.0=/home/sachin/StudioProjects/firebase/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/sachin/StudioProjects/firebase/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+base.1=/home/sachin/StudioProjects/firebase/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
